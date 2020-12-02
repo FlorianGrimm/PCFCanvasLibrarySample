@@ -2,7 +2,7 @@ import * as control from "./PCFHotReloadSample";
 
 // development enable HotReload
 /*  */
-import { enableHotReloadForTypes } from 'pcfcanvaslibrary/src/HotReload/index';
+import { enableHotReloadForTypes } from 'pcfcanvaslibrary/dist/HotReload';
 enableHotReloadForTypes(
 	true,
 	control.PCFHotReloadSample.name,

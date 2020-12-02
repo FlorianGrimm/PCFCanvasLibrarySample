@@ -66,6 +66,7 @@ export class PCFHotReloadSample implements ComponentFramework.StandardControl<II
      * @param hotReloadState the state from getHotReloadState
      */
     hotReload(context: ComponentFramework.Context<IInputs>, notifyOutputChanged?: () => void, state?: ComponentFramework.Dictionary, container?: HTMLDivElement, hotReloadState?: HotReloadState): void {
+        this.container = container!;
         if (hotReloadState) {
             this.foo = hotReloadState.foo;
         }
