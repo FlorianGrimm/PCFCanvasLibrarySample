@@ -64,6 +64,10 @@ npm run start watch
 
 ```javascript
 
+PCFCanvasLibrary.enableHotReload("PCFHotReloadSample")
+
+-- or --
+
 PCFCanvasLibrary.enableHotReload("PCFHotReloadSample", 8, "http://127.0.0.1:8181/bundle.js")
 
 ```
